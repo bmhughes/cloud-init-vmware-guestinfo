@@ -1,5 +1,5 @@
 # The CentOS image is the base of this image.
-ARG CENTOS_IMAGE=centos:7
+ARG CENTOS_IMAGE=centos:8
 
 FROM ${CENTOS_IMAGE}
 RUN yum install -y rpm-build
